@@ -79,6 +79,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+// This is currently not being used because the header is already present in the hero component
 export default function Header() {
   return (
     <Popover className="relative bg-white">
