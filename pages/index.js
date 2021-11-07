@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Header from '../components/landing/Header'
 import Hero from '../components/landing/Hero'
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
 
       <main>
         <Hero/>
-      
       </main>
 
     </div>
